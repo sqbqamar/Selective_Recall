@@ -57,7 +57,7 @@ recall-critical labels, the gate reaches precision ≈ 0.90 and recall ≈ 1.00 
 attending fraction ≈ 0.20, versus ≈ 0.17 / ≈ 0.20 for a uniform gate. It fires on the
 positions that matter and stays low elsewhere.
 
-![Gate activation](docs/fig_gate_activation.png)
+![Gate activation](docs/Figure6.png)
 
 ---
 
