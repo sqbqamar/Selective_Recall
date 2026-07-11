@@ -122,7 +122,6 @@ the long-context and memory measurements.
 | Accuracy and cost vs context length (headline) | `notebooks/Selective_Recall_accuracy_cost.ipynb` | `python benchmarks/experiment_accuracy_cost.py --L 256 512 1024 2048 4096 --K 1 --budget 16` |
 | Measured latency and peak memory vs context | `notebooks/Selective_Recall_benchmark.ipynb` | `python benchmarks/benchmark_attention.py --L 1024 2048 4096 8192 16384 32768` |
 | Gate diagnostic and interpretable routing | `notebooks/Selective_Recall_experiment.ipynb` | `python scripts/run_experiment.py` |
-| Bounded-memory capacity stress test | `notebooks/Selective_Recall_capacity.ipynb` | — |
 | Memory-size scaling sweep | `notebooks/Selective_Recall_capacity_law.ipynb` | — |
 
 The figures in this README are produced by `docs/make_readme_figs.py` from the measured
